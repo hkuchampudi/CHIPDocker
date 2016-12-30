@@ -3,8 +3,9 @@
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Installing Docker](#installing-docker)
-3. [Creating the CHIP. SDK Image](#creating-the-chip-sdk-image)
-4. [Flashing the CHIP.](#flashing-the-chip)
+3. [Creating the CHIP SDK Image](#creating-the-chip-sdk-image)
+4. [Flashing the CHIP](#flashing-the-chip)
+4. [Resources](#resources)
 
 ## Introduction
 This repository contains the files necessary to build a C.H.I.P. SDK image to use with [Docker](https://www.docker.com/). If you have never heard of Docker before, you may be wondering what Docker is and why in the world you would want to use it to flash your C.H.I.P. As per the Docker website:
@@ -51,3 +52,8 @@ FLASH VERIFICATION COMPLETE.
 
 CHIP is ready to roll!
 ```
+
+## Resources
+- [C.H.I.P. User Documentation](http://docs.getchip.com/chip.html)
+- [C.H.I.P. SDK Repository](https://github.com/NextThingCo/CHIP-SDK#help-section)
+- [Docker Documentation](https://docs.docker.com/)
