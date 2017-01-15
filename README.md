@@ -27,7 +27,7 @@ Follow the install guide for your operating system [here](https://www.docker.com
 
 ## Flashing the CHIP
 1. Now that we have our Docker image, let's create a container for the C.H.I.P. SDK.
-2. Run the following command in the terminal: `docker run -it --name chip --privileged -v /dev/bus/usb:/dev/bus/usb -v /dev/ttyACM0:/dev/ttyACM0 chip-image`.
+2. Run the following command in the terminal: `docker run -it --name chip --privileged -v /dev/bus/usb:/dev/bus/usb chip-image`.
 3. You should now see a prompt like `root@XXXXXXXXXXXX:/# `
 4. At this point, [put your C.H.I.P in FEL mode](http://docs.getchip.com/chip.html#instructions) and plug it into your computer.
 5. In the same terminal as before enter the command: `cd CHIP-tools`.
