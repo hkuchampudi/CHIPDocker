@@ -61,8 +61,8 @@ sunxi-fel
 sunxi-fexc
 sunxi-nand-part
 sunxi-pio
-pheonix_info
-nand-image-builder)
+phoenix_info
+sunxi-nand-image-builder)
 for BIN in ${SUNXI_TOOLS[@]};do
   if [[ -L /usr/local/bin/${BIN} ]]; then
     rm /usr/local/bin/${BIN}
