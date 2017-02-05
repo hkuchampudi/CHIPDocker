@@ -14,6 +14,7 @@ apt-get -y install \
  libncurses-dev \
  ppp \
  cu \
+ bc \
  linux-image-extra-virtual \
  u-boot-tools \
  android-tools-fastboot \
