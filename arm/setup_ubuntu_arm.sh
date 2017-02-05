@@ -14,6 +14,7 @@ apt-get -y install \
  libncurses-dev \
  ppp \
  cu \
+ bc \
  u-boot-tools \
  android-tools-fastboot \
  android-tools-fsutils \
