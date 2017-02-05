@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installing Docker](#installing-docker)
+- [Installing Docker on the CHIP](#installing-docker-on-the-chip)
 - [Creating the CHIP SDK Image](#creating-the-chip-sdk-image)
     - [For Docker on x86 Systems](#for-docker-on-x86-systems)
     - [For Docker on the CHIP](#for-docker-on-the-chip)
