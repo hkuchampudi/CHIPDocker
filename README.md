@@ -18,6 +18,9 @@ Essentially, Docker allows us to flash the CHIP easily regardless of the host op
 ## Installing Docker
 Follow the install guide for your operating system [here](https://www.docker.com/products/overview#/install_the_platform).
 
+## Installing Docker on the CHIP
+While it is still experimental, you can install Docker on your CHIP by SSHing into the CHIP and issuing the command `curl -sSL https://github.com/DieterReuter/arm-docker-fixes/raw/master/002-fix-install-docker-on-chip-computer/apply-fix-002.sh | bash`. You can follow [the guide here](http://blog.hypriot.com/post/install-docker-on-chip-computer/) for more detailed instructions.
+
 ## Creating the CHIP SDK Image
 
 ### For Docker on x86 Systems
