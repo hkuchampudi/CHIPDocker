@@ -5,13 +5,13 @@
 - [Installing Docker](#installing-docker)
 - [Installing Docker on the CHIP](#installing-docker-on-the-chip)
 - [Creating the CHIP SDK Image](#creating-the-chip-sdk-image)
-    - [For Docker on x86 Systems](#for-docker-on-x86-systems)
+    - [For Docker on x64 Systems](#for-docker-on-x64-systems)
     - [For Docker on the CHIP](#for-docker-on-the-chip)
 - [Flashing the CHIP](#flashing-the-chip)
 - [Resources](#resources)
 
 ## Introduction
-This repository contains the Dockerfiles and setup scripts necessary to build Docker images containing the CHIP SDK for Docker running on x86 systems as well as the CHIP. If you are new to Docker, you may be wondering what Docker is and why you would want to use it to flash your CHIP. From Docker's website:
+This repository contains the Dockerfiles and setup scripts necessary to build Docker images containing the CHIP SDK for Docker running on x64 systems as well as the CHIP. If you are new to Docker, you may be wondering what Docker is and why you would want to use it to flash your CHIP. From Docker's website:
 > Docker containers wrap a piece of software in a complete filesystem that contains everything needed to run: code, runtime, system tools, system libraries – anything that can be installed on a server. This guarantees that the software will always run the same, regardless of its environment.
 
 Essentially, Docker allows us to flash the CHIP easily regardless of the host operating system. Additionally, Docker helps us avoid having to directly install new packages and software on our host system, and instead offers minimal virtual machines (called containers) which we can install the software onto and delete once we are done with them. Currently, the CHIP documentation uses Vagrant combined with full virtual machines to flash the CHIP. This process uses more overhead and therefore could slow down our system as well as use more HDD/SSD space :( Docker is a lightweight, cross platform solution to this!
@@ -24,10 +24,10 @@ While it is still experimental, you can install Docker on your CHIP by SSHing in
 
 ## Creating the CHIP SDK Image
 
-### For Docker on x86 Systems
+### For Docker on x64 Systems
 1. Once you have downloaded Docker, clone/download this repository (if you downloaded the .zip file, extract it).
 2. Open a terminal and `cd` into the CHIPDocker folder.
-3. Next, `cd` into the `x86` folder.
+3. Next, `cd` into the `x64` folder.
 4. Enter the following command to build the image: `docker build -t "chip-image" .` (be sure that you add the period at the end; it's important).
 5. Wait for the image to build (it could take a while).
 6. When the image has been successfully built, you should get the message: `Successfully built XXXXXXXXXXXX`.
